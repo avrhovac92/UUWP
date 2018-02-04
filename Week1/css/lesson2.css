@@ -1,0 +1,15 @@
+body {
+	background: #ADD8E6;
+}
+
+p {
+	font-size: 20px;
+	margin: 20px;
+	margin-top: 50px;
+	border: 2px solid gray;
+}
+
+.class-item {
+	font-family: arial;
+	background: red;
+}

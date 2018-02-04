@@ -1,0 +1,44 @@
+.my-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.my-panel{
+	margin: 3%;
+	border: 1px solid #B6F0C4;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px #ccc;
+	width: 25%;
+	float: left;
+}
+
+.my-panel .header {
+	background: #B6F0C4;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	font-family: arial;
+	padding: 10px 20px;
+	color: #687D6D;
+}
+
+.my-panel .body {
+	padding: 10px 20px;
+	font-family: arial;
+}
+
+.my-panel .show-on-hover {
+	display: none;
+}
+
+.my-panel:hover .show-on-hover {
+	display: block;
+}
+
+.my-panel:hover {
+	box-shadow: 0px 0px 8px black;
+}
+
+.show-on-hover {
+	float: right;
+	margin: 5px!important;
+}

@@ -1,0 +1,93 @@
+p {
+    color: red;
+    font-size: 400%;
+    position: absolute;
+    top: 37%;
+    left: 35%;
+}
+
+.first-part {
+    position: absolute;
+    left: -125px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid red;
+    top: 35%;
+    background: red;
+    transform: rotate(45deg);
+    float: left;
+}
+
+.triangle {
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: -125px;
+    left: 35%;
+    height: 250px;
+    width: 250px;
+    transform: rotate(45deg);
+}
+
+.second-part {
+    position: absolute;
+    top: -125px;
+    left: -125px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    background: green;
+    transform: rotate(135deg);
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid black;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid green;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid blue; 
+}
+
+.margin {
+	margin: 20px;
+}
+
+
+
+
+
+/*
+<div class="first-part"></div>
+<div class="triangle">
+	<div class="text">Text in triangle</div>
+</div>
+<div class="second-part"></div>
+*/

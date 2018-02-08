@@ -1,0 +1,65 @@
+h1 {
+
+    font-size: 30;
+    font-family: sans-serif;
+    margin: 5;
+    padding: 3%;
+    text-align: left;
+}
+
+h2 {
+
+    font-size: 30;
+    font-family: sans-serif;
+    margin: 5;
+    padding: 3%;
+    text-align: left;
+}
+
+p {
+    padding: 3%;
+    margin: 5;
+    font-size: 40;
+}
+
+img {
+    border: 2px solid black;
+}
+
+/*
+Just not to go close over rotated div
+*/
+.padding-right {
+	padding-right: 60px!important;
+}
+
+/* 
+ Setting only height for image so it keeps
+ the same proportion as original size 
+*/
+
+.bio-image {
+    height: 328px;
+    float: left;
+}
+
+/* 
+ Google: how to rotate my div element
+ It would give you the information for making rotated square
+*/
+
+.relative {
+    position: relative;
+    text-align: center;
+}
+
+.transformed-square {
+    transform: rotate(45deg);
+    border: 4px solid #94a4c6;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 21px;
+    left: -35px;
+}
+

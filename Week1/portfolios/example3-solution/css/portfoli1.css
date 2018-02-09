@@ -1,0 +1,113 @@
+body {
+    margin: 5px 15px;
+    border: ridge;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.naslov {
+
+    flex-grow: 2;
+    background-color: #1f4060;
+    border: 2px solid white;
+    flex-grow: 1;
+    font-size: 70px;
+    font-family: calibri;
+    color: white;
+    padding: 5px 12px;
+}
+
+.podnaslov {
+
+    padding: 12px;
+    font-family: arial;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+
+    background-color: #a6a6a6;
+    border: 2px solid white;
+    font-weight: bold;
+
+    `
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.opis1 {
+    padding: 10px;
+    flex-grow: 10;
+}
+
+.naslov2 {
+    padding: 10px;
+    font-size: 30px;
+    color: gray;
+}
+
+.text1 {
+    padding: 5px;
+    font-size: 18px;
+    color: #1f4060;
+}
+
+.text2 {
+    padding: 5px;
+    font-size: 18px;
+    color: lightblue;
+}
+
+.text3 {
+    padding: 5px;
+    font-size: 18px;
+    color: #1f4060;
+}
+
+.text4 {
+    padding: 5px;
+    font-size: 18px;
+    color: #1f4060;
+}
+
+.opis2 {
+    flex-grow: 1;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slika {
+    color:
+}
+
+.informacija {}
+
+.link2 {}
+
+.navigacija {
+    background-color: #1f4060;
+    padding: 20px;
+}
+
+.linkovi {}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-language-override: none;
+}
+
+.podvuceni {
+    color: white;
+}

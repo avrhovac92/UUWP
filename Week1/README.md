@@ -2,7 +2,7 @@
 Web development course - Begginers level
 
 
-## Homework for Week 1
+## Homework
 ### Understand "align-items" and "justify-content" css attributes when used in display:flex structure
  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ### Read out bootstrap documentation - NOTICE: Do not memorize items, just be aware of their existance

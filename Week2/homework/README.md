@@ -43,13 +43,13 @@
 	- Message (no validation)
 	- NOTE: You must use bootstrap classes for styling a form in addition to writting custom css(if needed). Validation should be manually written(no bootstrap validation).
 	- Reference: https://bootstrapious.com/ck_resources/img/contact-form.PNG
-	2. Create three div fields:
-	 - day => Represents day of the month(format: 01, 02, 03, 04,... 31)
-	 - month => Represents month(format: January, February, March,... December)
-	 - year => Represents Year (2011, 2012,...)
+2. Create three div fields:
+	- day => Represents day of the month(format: 01, 02, 03, 04,... 31)
+	- month => Represents month(format: January, February, March,... December)
+	- year => Represents Year (2011, 2012,...)
 	Clicking on "Day" div should change day to tomorow(01 => 02, 05 => 06, 10 => 11, 31 => 1 + move a month)
 	Clicking on "Month" div should change to next month (January => February, December => January + move a year)
 	Clicking on "Year" should add another year (2011 => 2012, ...)
-	 - NOTE: Watch on day/month transitions so the month/year move accordingly. February also has 28/29 days.
-	 - HINT: var date = new Date(); 
-	 - Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+	- NOTE: Watch on day/month transitions so the month/year move accordingly. February also has 28/29 days.
+	- HINT: var date = new Date(); 
+	- Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date

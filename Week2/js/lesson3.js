@@ -19,7 +19,7 @@ for(var i = numbers.length - 1; i >= 0; i--){
 }
 
 console.log('--------------');
-var word = "alalalalalafbndofbin";
+var word = "alar";
 var counter = 0;
 
 for (var i = 0; i < word.length; i++){

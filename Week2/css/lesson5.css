@@ -1,0 +1,18 @@
+.background-plavi{
+	background-color: blue;
+}
+.background-crveni{
+	background-color: red;
+}
+.test{
+	padding: 20px;
+}
+.text {
+	font-size: 20px;
+	color: #fff;
+}
+.text1 {
+	font-size: 20px;
+	padding: 10px;
+	font-weight: 600;
+}

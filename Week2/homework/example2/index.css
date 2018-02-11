@@ -1,0 +1,8 @@
+.funny-text{
+	font-size: 30px;
+	margin: 10px;
+	color: red;
+}
+.dont-display {
+	display: none;
+}

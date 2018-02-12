@@ -35,7 +35,7 @@
  	- Expected Output : 'Development'
 
 ## HTML, CSS, Javascript tasks
- 1. Create a form with validation. If validation is not satisfied it should appear with their respective messages("Name field must not be empty", "Please type a valid email", etc).Warning Message(lightish red background color) appears in green box below submit button that has fateIn/fadeOut animation. In case all validations are satisfied Success Message should appear telling user he submitted form successfuly. Form contains next fields:
+  1. Create a form with validation. If validation is not satisfied it should appear with their respective messages("Name field must not be empty", "Please type a valid email", etc).Warning Message(lightish red background color) appears in green box below submit button that has fateIn/fadeOut animation. In case all validations are satisfied Success Message should appear telling user he submitted form successfuly. Form contains next fields:
  	- First Name (validation: can't submit empty)
  	- Last Name (validation: can't submit empty)
  	- Email (validation: check if it's a valid email)
@@ -43,7 +43,7 @@
 	- Message (no validation)
 	- NOTE: You must use bootstrap classes for styling a form in addition to writting custom css(if needed). Validation should be manually written(no bootstrap validation).
 	- Reference: https://bootstrapious.com/ck_resources/img/contact-form.PNG
-2. Create three div fields:
+  2. Create three div fields:
 	- day => Represents day of the month(format: 01, 02, 03, 04,... 31)
 	- month => Represents month(format: January, February, March,... December)
 	- year => Represents Year (2011, 2012,...)
@@ -53,3 +53,9 @@
 	- NOTE: Watch on day/month transitions so the month/year move accordingly. February also has 28/29 days.
 	- HINT: var date = new Date(); 
 	- Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+  3. Create a quiz with offered answers. All questions should be on the same page but only one is shown at the start. If user answers correctly, answer background should go light green and next question should appear bellow. In case user answer incorrect, background of selected choice should go light red and retry button should appear and process repeats. If users answers correctly, write a congratulations notification.
+
+
+
+
+

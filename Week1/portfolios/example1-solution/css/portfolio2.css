@@ -1,0 +1,185 @@
+body{
+	border: 1px solid black;
+	background-image: url('pozadina.jpg');
+	display:flex;
+	height: 100vh;
+	width: 100%;
+}
+
+.strana{
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	/*margin: auto;
+	margin-top:0px;
+	margin-bottom: 0px;*/
+	
+}
+.c1{
+	background-image: url('slika1.jpg');
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+
+}
+
+.c2{
+	display: flex;
+	flex-grow: 1;
+	flex-direction:column;
+	align-content: center;
+	background-color: white;
+
+
+}
+.meni{
+	flex-grow: 1;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+
+
+	
+}
+.meni1{
+	padding: 10px;
+
+	flex-grow: 3;
+	text-align: center;
+	margin-left: 100px;
+
+}
+.meni2{
+	padding: 10px;
+	margin-right:180px;
+	flex-grow: 1;
+	display: flex;
+	justify-content:space-around;
+	
+	flex-direction: row;
+}
+.link{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+
+}
+.naslov1{
+	margin: 10px;
+	font-size: 25px;
+	align-self: center;
+	color: white;
+	font-style: italic;
+	letter-spacing: 1px;
+
+
+}
+.naslov2{
+	font-size: 33px;
+	margin: 5px;
+	align-self: center;
+	color: white;
+	font-stretch: expanded;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+.dugme{
+	margin: 10px;
+	padding: 10px 18px;
+	align-self: center;
+	display:block;
+	background:#ffc34d;
+	
+
+}
+.link1{
+	color:#ffc34d;
+	text-decoration: none;
+	font-size: 18px;
+}
+.naslovi{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 5;
+}
+.link3{
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+
+
+}
+.sadrzaj{
+	justify-content: center;
+	display: flex;
+	flex-direction:row;
+	}
+.element1{
+	margin: 30px;
+	margin-left:150px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.element2{
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.element3{
+	margin:30px;
+	margin-right:150px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.naslov3{
+	font-family: Times new roman;
+	margin-top:70px;
+	margin-bottom: 10px;
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	font-stretch: expanded;
+}
+.naslov4{
+
+	text-align: center;
+	font-size: 11px;
+	font-style: italic;
+	color: gray;
+
+}
+.krug {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	background-color:#ffc34d;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+.naziv{
+	font-weight: bold;
+	font-size: 13px;
+
+}
+.textp{
+	font-size: 9px;
+	font-style: italic;
+	color: gray;
+
+}

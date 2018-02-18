@@ -43,6 +43,7 @@
 	- Message (no validation)
 	- NOTE: You must use bootstrap classes for styling a form in addition to writting custom css(if needed). Validation should be manually written(no bootstrap validation).
 	- Reference: https://bootstrapious.com/ck_resources/img/contact-form.PNG
+	- Tutorial: https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
   2. Create three div fields:
 	- day => Represents day of the month(format: 01, 02, 03, 04,... 31)
 	- month => Represents month(format: January, February, March,... December)

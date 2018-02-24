@@ -2,8 +2,9 @@ const dropdown = document.getElementById("dropdown");
 const taskLabel = document.getElementById("taskLabel");
 const button = document.getElementById("button");
 const solutionBox = document.getElementById("solutionBox");
+const input = document.getElementById("input");
 
-const findTask = () => tasks.find(task => $(dropdown)[0].value === task.name);
+const findTask = () => tasks.find(task => dropdown.value === task.name);
 const formatList = (list) => {
     let result = [];
     let items = list.split(',');

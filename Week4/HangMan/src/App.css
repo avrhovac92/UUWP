@@ -1,0 +1,70 @@
+.frame{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top:20px;
+  border-radius: 5px;
+}
+.text{
+  font-size: 35px ;
+  text-align: center;
+  padding: 20px;
+  font-family:monospace;
+  font-weight: bold;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.letter{
+  text-align: center;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: powderblue;
+}
+.boxx{
+  background-color: pink;
+  margin: 15px;
+  border-radius: 3px;
+}
+.guess{
+  color: black;
+  background-color: white;
+  border-bottom: solid 2px black;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+.corect{
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  color:black;
+  border-bottom: solid 2px black;
+}
+.pic{
+  margin-left: 180px;
+  margin-top: 0px;
+
+}
+.tryAgin{
+  margin-left: 190px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: pink;
+  color: grey;
+  letter-spacing: 3px;
+  font-family: serif;
+
+}

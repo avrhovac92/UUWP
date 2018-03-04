@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Picture from './Picture';
 import Word from './Word';
 import ToList from './ToList';
-import { Words } from './constants';
+import { Words } from 'config/constants';
 
 export default class HangMan extends Component {
   constructor(props) {

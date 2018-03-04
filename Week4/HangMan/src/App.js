@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import HangMan from './HangMan';
+import 'css/App.css';
+import HangMan from 'components/HangMan';
 
 class App extends Component {
   constructor(props) {
